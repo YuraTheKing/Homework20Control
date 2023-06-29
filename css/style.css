@@ -1,0 +1,15 @@
+.container {
+    background-color: black;
+}
+
+header a.nav-link.active {
+    color: red;
+}
+
+header a {
+    letter-spacing: 7px;
+}
+
+header a.nav-link {
+    color: grey;
+}
