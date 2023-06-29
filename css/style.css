@@ -10,6 +10,22 @@ header a {
     letter-spacing: 7px;
 }
 
+.hero h1 {
+    letter-spacing: 30px;
+} 
+
+.hero h4 {
+    letter-spacing: 15px;
+} 
+
+
 header a.nav-link {
-    color: grey;
+    color: white;
+}
+
+.hero {
+    background: url(../images/head_bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    padding-top: 120px;
 }
