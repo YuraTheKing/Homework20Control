@@ -13,25 +13,33 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-dark navbar-expand-lg w-100 position-absolute z-3" aria-label="First navbar example">
+        <div class="container">
+            <header class="w-100 d-flex flex-wrap justify-content-between align-items-center py-3">
+                <a href="#">
+                    <img src="images/logo.png" alt="pic">
+                </a>
 
-    <div class="container position-relative z-3">
-        <header class="d-flex flex-wrap justify-content-between align-items-center py-3 mb-4 position-absolute w-100">
-            <a href="#">
-                <img src="images/logo.png" alt="pic">
-            </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample06"
+                    aria-controls="navbarsExample06" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <ul class="nav fw-bold">
-                <li class="nav-item"><a href="#" class="nav-link ">MENS</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">WOMENS</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">BRANDS</a></li>
-                <li class="nav-item"><a href="#" class="nav-link active">SALE</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">NEWS</a></li>
-            </ul>
-        </header>
-    </div>
+                <div class="navbar-collapse collapse flex-grow-0" id="navbarsExample06" style="">
+                    <ul class="nav fw-bold">
+                        <li class="nav-item"><a href="#" class="nav-link ">MENS</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">WOMENS</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">BRANDS</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link active">SALE</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">NEWS</a></li>
+                    </ul>
+                </div>
+            </header>
+        </div>
+    </nav>
     <!-- HEADER -->
 
-    <section class="hero position-relative d-flex flex-column justify-content-center align-items-center">
+    <section class="hero position-relative d-flex flex-column justify-content-center text-center align-items-center">
         <h1 style="color: white; font-size: 50px;">STUSSY 2023</h1>
         <h4 style="color: red;font-weight: 800;">SHOP NOW</h4>
 
@@ -40,7 +48,7 @@
     </section>
     <!-- HERO -->
 
-    <section id="brand" class="container pt-5 mb-5">
+    <section id="brand" class="container pt-5 mb-5 cursor-pointer">
         <div class="brands">
             <div>
                 <img src="images/puma_shop.png" alt="pic">
@@ -70,7 +78,7 @@
     <!-- Brand -->
 
     <section class="photo-tag">
-        <div class="insta-grid">
+        <div class="insta-grid cursor-pointer">
             <div>
                 <img src="images/photo-tag1.png" alt="pic">
             </div>
@@ -104,7 +112,7 @@
             </div>
 
             <div
-                class="photo-tag-title position-absolute h-100 w-100 d-flex justify-content-center align-items-center flex-column gap-5">
+                class="photo-tag-title position-absolute h-100 w-100 d-flex justify-content-center text-center align-items-center flex-column gap-5">
                 <h1 style="color: white; font-size: 50px;"># ICNDY ON INSTASGRAM</h1>
                 <h4 style="color: rgba(255, 0, 0, 0.753);font-weight: 800;">VIEW HASHTAG</h4>
             </div>
@@ -124,11 +132,14 @@
                     <li class="nav-item"><a href="#" class="nav-link text-black">CONTACT</a></li>
                 </ul>
             </div>
-    
+
             <ul class="nav col-md-3 justify-content-end list-unstyled d-flex">
-                <li class="ms-3"><a class="text-body-secondary" href="#"><img width="24" height="24" src="images/instagram_icon.png" alt=""></a></li>
-                <li class="ms-3"><a class="text-body-secondary" href="#"><img width="24" height="24" src="images/facebook_icon.png" alt=""></a></li>
-                <li class="ms-3"><a class="text-body-secondary" href="#"><img width="24" height="24" src="images/twitter_bird_icon.png" alt=""></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="#"><img width="24" height="24"
+                            src="images/instagram_icon.png" alt=""></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="#"><img width="24" height="24"
+                            src="images/facebook_icon.png" alt=""></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="#"><img width="24" height="24"
+                            src="images/twitter_bird_icon.png" alt=""></a></li>
             </ul>
         </footer>
     </div>

@@ -72,3 +72,18 @@ header a.nav-link {
 footer ul li {
     letter-spacing: 7px;
 }
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+@media (max-width: 850px) {
+    .insta-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .photo-tag-title h1,
+    .photo-tag-title h4 {
+        font-size: 20px !important;
+    }
+}
