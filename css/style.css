@@ -68,3 +68,7 @@ header a.nav-link {
 .insta-grid h4 {
     letter-spacing: 15px;
 }
+
+footer ul li {
+    letter-spacing: 7px;
+}
